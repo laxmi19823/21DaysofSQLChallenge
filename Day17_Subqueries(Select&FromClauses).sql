@@ -26,7 +26,7 @@ FROM staff s;
 --Display staff with their service's total patient count as a calculated field.
 SELECT
     s.staff_id,
-    s.name,
+    s.staff_name,
     s.service,
     (
         SELECT COUNT(*)
@@ -62,5 +62,6 @@ FROM (
     GROUP BY service
 ) AS t
 ORDER BY t.total_admitted DESC;
+
 
 
