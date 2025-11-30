@@ -1,0 +1,78 @@
+🕵️‍♀️ SQL Murder Mystery – Who Killed the CEO?
+
+A data-driven detective case solved entirely using SQL.
+
+This capstone project was done as part of the 21-Day SQL Challenge by Indian Data Club, where the goal was simple but exciting:
+
+👉 Use SQL to solve the murder of the CEO of TechNova Inc.
+
+📘 Project Story
+
+On October 15, 2025 at 9:00 PM, the CEO of TechNova Inc. was found dead inside the CEO Office.
+
+As the data analyst investigating the case, I used:
+
+Keycard logs
+
+Call records
+
+Alibi statements
+
+Physical evidence
+
+…to identify who committed the crime, when, where, and how.
+
+This project tests full SQL capability including:
+
+Joins
+
+Subqueries
+
+Time filtering
+
+Aggregations
+
+Logical deduction
+
+Multi-table analysis
+
+🗂 Database Schema
+
+The case consists of 5 main tables:
+
+Table	Description
+employees	Employee details (name, role, department)
+keycard_logs	Room entry/exit logs
+calls	Phone calls between employees
+alibis	Claimed locations & timestamps
+evidence	Physical evidence found
+🔍 Investigation Summary — How I Solved the Case
+1️⃣ Keycard Logs — The First Break
+
+David Kumar entered the CEO’s office at 20:50 and left at 21:00 — exactly overlapping the murder window (~9 PM).
+
+2️⃣ Alibi Check — A Clear Lie
+
+David claimed he was in the Server Room at 20:50.
+But the keycard logs proved the opposite.
+
+3️⃣ Suspicious Call
+
+A 45-second call was placed by David to the CEO at 20:55 — directly inside the incident window.
+
+4️⃣ Physical Evidence
+
+Evidence found in the CEO Office:
+
+Fingerprint on desk (21:05)
+
+Keycard swipe mismatch (21:10)
+
+This supported the hypothesis that the killer tampered with access logs.
+
+🧠 Final Conclusion
+
+After combining presence, false alibi, call history, and physical evidence…
+
+🟦 KILLER IDENTIFIED:
+👉 David Kumar
